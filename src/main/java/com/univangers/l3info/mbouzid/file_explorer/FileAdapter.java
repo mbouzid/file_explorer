@@ -12,7 +12,7 @@ public class FileExplorer extends ArrayAdapter<File>
 
   public FileAdapter(Context context, File [] objects)
   {
-     super(context, R.layout.ligne, objects);
+     super(context, R.layout.line, objects);
   }
   
   public View getView(int position, View v, ViewGroup parent)
