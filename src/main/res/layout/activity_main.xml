@@ -1,24 +1,14 @@
-1 <?xml version="1.0" encoding="utf-8"?>
-  2 <LinearLayout
-  3     xmlns:android="http://schemas.android.com/apk/res/android"
-  4     android:layout_width="match_parent"
-  5     android:layout_height="match_parent"
-  6     android:orientation="vertical">
-  8 
-  9     <TextView
- 10         android:fontFamily="Comic Sans MS"
- 11         android:textStyle="bold"
- 12         android:text="Select a directory"
- 13         android:textSize="30dp"
- 14         android:id="@+id/m_current_directory"
- 15         android:layout_width="match_parent"
- 16         android:layout_height="wrap_content" />
- 17 
- 18 
- 19     <ListView
- 20         android:id="@android:id/list"
- 21         android:layout_width="match_parent"
- 22         android:layout_height="match_parent"/>
- 23 
- 24 
- 25 </LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" 
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <TextView android:fontFamily="Comic Sans MS" android:textStyle="bold" android:text="Select a directory" android:textSize="30dp"
+    android:id="@+id/m_current_directory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+  <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+ 
+</LinearLayout>
