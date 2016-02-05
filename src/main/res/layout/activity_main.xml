@@ -5,7 +5,7 @@
   android:orientation="vertical">
 
   <TextView android:fontFamily="Comic Sans MS" android:textStyle="bold" android:text="Select a directory" android:textSize="30dp"
-    android:id="@+id/m_current_directory"
+    android:id="@+id/current_directory"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 
